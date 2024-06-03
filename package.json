@@ -1,0 +1,30 @@
+{
+  "name": "software-sauna-assignment",
+  "version": "1.0.0",
+  "description": "Software Sauna Code Challenge",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node_modules/.bin/ts-node src/index.ts",
+    "test": "node_modules/.bin/mocha --opts ./mocha.opts"
+  },
+  "keywords": [
+    "mocha",
+    "typescript",
+    "tdd"
+  ],
+  "author": "Nebojsa Stojanovic",  
+  "dependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.44",
+    "@types/sinon": "^2.3.7",
+    "@types/sinon-chai": "^2.7.29",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.1",
+    "sinon-chai": "^2.14.0",
+    "typescript": "^2.6.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
